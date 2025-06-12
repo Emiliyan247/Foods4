@@ -1,0 +1,85 @@
+body {
+  background: #121212;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+h1 {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 8px #00aaff;
+}
+.instructions {
+  max-width: 600px;
+  font-size: 1.1rem;
+  color: #bbb;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+textarea {
+  width: 100%;
+  max-width: 640px;
+  height: 140px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  background: #222;
+  border: 2px solid #00aaff;
+  color: #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  resize: vertical;
+}
+button {
+  margin-top: 25px;
+  padding: 14px 40px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #00aaff, #005f99);
+  border: none;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 15px #00aaffcc;
+}
+button:hover {
+  background: linear-gradient(90deg, #00d4ff, #0080cc);
+  box-shadow: 0 6px 20px #00d4ffcc;
+}
+.clear-btn {
+  margin-top: 12px;
+  background: #555;
+}
+#result {
+  margin-top: 30px;
+  max-width: 640px;
+  font-size: 1.25rem;
+  background: #222;
+  padding: 20px 25px;
+  border-radius: 14px;
+  box-shadow: 0 0 15px #00aaffbb;
+  white-space: pre-wrap;
+  color: #0ff;
+  min-height: 70px;
+}
+#car-animation {
+  margin-top: 40px;
+  text-align: center;
+  transition: all 0.6s ease;
+}
+.car-gif {
+  width: 320px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 0 25px #00eaff;
+  margin: 10px auto;
+  display: block;
+  transition: all 0.3s ease;
+}
