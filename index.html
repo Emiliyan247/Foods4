@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prolog Кола с GIF</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Prolog Кола</h1>
+  <p class="instructions">
+    Въведи Prolog заявка в полето по-долу и натисни "Изпълни".<br>
+    Пример: <code>is_electric(X).</code>, <code>manufacturer(X, bmw).</code>
+  </p>
+
+  <textarea id="prolog-input">% Примерна заявка:
+is_electric(X).
+  </textarea><br />
+  <button onclick="runProlog()">Изпълни</button>
+  <button onclick="clearAll()" class="clear-btn">Изчисти</button>
+
+  <div id="result"></div>
+  <div id="car-animation"></div>
+
+  <script src="https://unpkg.com/tau-prolog"></script>
+  <script src="script.js"></script>
+</body>
+</html>
